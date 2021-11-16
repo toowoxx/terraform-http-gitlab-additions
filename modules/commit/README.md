@@ -4,7 +4,7 @@
 
 ```terraform
 module "head_commit" {
-  source  = "toowoxx/gitlab-additions/http/modules/commit"
+  source  = "toowoxx/gitlab-additions/http//modules/commit"
   # insert version here
   api_url      = "https://git.example.com/api/v4"
   project_id   = gitlab_project.example_project.id
