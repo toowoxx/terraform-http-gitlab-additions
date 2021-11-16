@@ -11,7 +11,7 @@ variable "ref_name" {
 
 variable "api_url" {
   type        = string
-  description = "API URL of the GitLab instance to use (Default: https://gitlab.com/api/v4)"
+  description = "API URL of the GitLab instance to use"
   default     = "https://gitlab.com/api/v4"
 }
 
