@@ -1,4 +1,4 @@
 
 locals {
-  commit = jsondecode(data.http.commit.body)[0]
+  commit = jsondecode(data.http.commit.response_body)[0]
 }
